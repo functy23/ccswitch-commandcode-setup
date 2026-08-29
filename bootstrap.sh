@@ -16,7 +16,7 @@
 # ============================================================================
 set -euo pipefail
 
-BASE_URL="${COMMANDCODE_SETUP_BASE:-}"
+BASE_URL="${COMMANDCODE_SETUP_BASE:-https://raw.githubusercontent.com/functy23/ccswitch-commandcode-setup/main}"
 
 # ---- 解析参数：--base <url> / 直接给 URL；其余透传给 setup_commandcode.py ----
 args=()
