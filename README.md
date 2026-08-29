@@ -52,6 +52,7 @@ COMMANDCODE_API_KEY=user_xxx python3 setup_commandcode.py --yes --verify   # 非
 | `bootstrap.sh` | 总脚本（curl \| bash 入口）：下载最小文件集到临时目录、运行、自动清理 |
 | `setup_commandcode.py` | 主脚本：校验 Key → 探测模型 → 写入 CC Switch → 重启接管 → 可选冒烟测试 |
 | `run.command` | macOS 双击启动器：进入本目录并运行主脚本 |
+| `AGENTS.md` | AI agent 交接文档：架构事实库、数据库写入规范、测试规程、已知坑 |
 
 ### 全部参数
 
